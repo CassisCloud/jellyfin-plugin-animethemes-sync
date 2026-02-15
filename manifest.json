@@ -1,0 +1,19 @@
+{
+    "guid": "66d528df-4632-4d43-9828-56957262572b",
+    "name": "AnimeThemesSync",
+    "description": "Plugin for Jellyfin that syncs anime theme songs (OPs and EDs) from animethemes.moe. Requires the AniDB plugin to be installed for AniDB ID matching.\n",
+    "overview": "Syncs anime themes (OPs and EDs) from animethemes.moe to Jellyfin",
+    "owner": "CassisCloud",
+    "category": "Metadata",
+    "imageUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/raw/refs/heads/main/resource/images/jellyfin-plugin-animethemes-sync.jpeg",
+    "versions": [
+        {
+            "version": "1.0.0",
+            "changelog": "**Full Changelog**: https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/commits/v1.0.0",
+            "targetAbi": "10.11.0.0",
+            "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v1.0.0/AnimeThemesSync.zip",
+            "checksum": "00000000000000000000000000000000",
+            "timestamp": "2026-02-15T14:05:56Z"
+        }
+    ]
+}
