@@ -2,7 +2,7 @@
     {
         "guid": "66d528df-4632-4d43-9828-56957262572b",
         "name": "AnimeThemesSync",
-        "description": "Automatically download OP/ED videos from AnimeThemes.moe to upgrade your collection!\\n \\nKey Features:\\n - Precise Matching: Uses AniList/MyAnimeList IDs to ensure the correct anime.\\n - Smart Tagging: Automatically adds season tags like 'Winter 2024'.\\n - Direct Links: Quick access to the source pages on AnimeThemes.moe.\n",
+        "description": "Automatically download OP/ED videos from AnimeThemes.moe to upgrade your collection!\nKey Features: - Precise Matching: Uses AniList/MyAnimeList IDs to ensure the correct anime. - Smart Tagging: Automatically adds season tags like 'Winter 2024'. - Direct Links: Quick access to the source pages on AnimeThemes.moe.\n",
         "overview": "Automatically downloads anime OP/ED themes from AnimeThemes.moe for your Jellyfin library.",
         "owner": "CassisCloud",
         "category": "Anime",
