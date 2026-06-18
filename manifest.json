@@ -10,7 +10,7 @@
         "versions": [
             {
                 "version": "1.2.0",
-                "changelog": "Prepare release settings and ignore private docs\n",
+                "changelog": "## Changes\n- Add a plugin setting to enable or disable season-level theme downloads.\n- Keep saved season mappings while skipping season output when season downloads are disabled.\n- Publish the Jellyfin catalog thumbnail from GitHub Pages so Jellyfin can fetch it reliably.\n- Remove local developer notes, IDE settings, and large sample files from the public repository.\n- Expand ignore rules for generated artifacts, private notes, and AI instruction files.\n",
                 "targetAbi": "10.11.0.0",
                 "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v1.2.0/Jellyfin.Plugin.AnimeThemesSync.zip",
                 "checksum": "9215f03b84ca51ea369dcf1345b87cb6",
