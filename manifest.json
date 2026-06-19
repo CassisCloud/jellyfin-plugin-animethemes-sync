@@ -9,8 +9,16 @@
         "imageUrl": "https://cassiscloud.github.io/jellyfin-plugin-animethemes-sync/images/jellyfin-plugin-animethemes-sync.jpeg",
         "versions": [
             {
+                "version": "2.0.0",
+                "changelog": "- Improve AnimeThemes Browser library browsing and filtering\n- Add integrated settings controls and clearer browser actions\n- Improve saved media status display and sorting\n- Improve mobile layouts and responsive controls\n- Improve Jellyfin and Emby browser consistency\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v2.0.0/Jellyfin.Plugin.AnimeThemesSync.zip",
+                "checksum": "fb0a4b6abd89a3e2e1b74f76b9f06f0b",
+                "timestamp": "2026-06-19T18:51:14Z"
+            },
+            {
                 "version": "1.2.1",
-                "changelog": "## Changes\n- Fix inconsistent season matching status between Season Finder and Library Browser.\n- Exclude Season 0 and Specials from season matching views.\n- Improve Needs match display so resolved seasons are not shown as unmatched.\n",
+                "changelog": "## Changes\n- Fix inconsistent season matching status between Season Finder and Library Browser.\n- Exclude Season 0 and Specials from season matching views.\n- Improve Needs match display so resolved seasons are not shown as unmatched.",
                 "targetAbi": "10.11.0.0",
                 "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v1.2.1/Jellyfin.Plugin.AnimeThemesSync.zip",
                 "checksum": "812888028802761599923a4120a87fc4",
