@@ -10,7 +10,7 @@
         "versions": [
             {
                 "version": "1.2.1",
-                "changelog": "v1.2.1\nFix AnimeThemes Browser season matching consistency.\nSeason Finder now uses the same async AnimeThemes and AniList relation resolution path as Library Browser, so Auto, Direct, Series-level, and Manual states no longer disagree between the two views.\nSeason 0 and Specials folders are excluded from Season Finder and normal Library Browser season groups because AnimeThemes does not model Jellyfin specials seasons as separate season records.\nThe Finder UI now shows Needs match only when a season is actually unresolved, including cases where a resolved match has no AnimeThemes slug but does have resolved IDs or anime metadata.\nValidation: dotnet test Jellyfin.Plugin.AnimeThemesSync.Tests/Jellyfin.Plugin.AnimeThemesSync.Tests.csproj --no-restore; dotnet build Emby.Plugin.AnimeThemesSync/Emby.Plugin.AnimeThemesSync.csproj --no-restore; git diff --check.\n",
+                "changelog": "## Changes\n- Fix inconsistent season matching status between Season Finder and Library Browser.\n- Exclude Season 0 and Specials from season matching views.\n- Improve Needs match display so resolved seasons are not shown as unmatched.\n",
                 "targetAbi": "10.11.0.0",
                 "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v1.2.1/Jellyfin.Plugin.AnimeThemesSync.zip",
                 "checksum": "812888028802761599923a4120a87fc4",
