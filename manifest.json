@@ -9,6 +9,14 @@
         "imageUrl": "https://cassiscloud.github.io/jellyfin-plugin-animethemes-sync/images/jellyfin-plugin-animethemes-sync.jpeg",
         "versions": [
             {
+                "version": "2.2.0",
+                "changelog": "- Support selecting theme media outputs (theme and extra) individually\n- Add customizable extras file suffix for better media server detection\n- Fix duplicated or incorrect season one theme output paths\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v2.2.0/Jellyfin.Plugin.AnimeThemesSync.zip",
+                "checksum": "b2a2e8bf0327bf8624c54ca0af77cee6",
+                "timestamp": "2026-06-27T07:55:27Z"
+            },
+            {
                 "version": "2.1.0",
                 "changelog": "AnimeThemes Sync 2.1.0\n- Library Browser now opens faster with an automatically maintained local cache.\n- Added cache status, rebuild, clear, and legacy manifest import controls.\n- Improved Jellyfin and Emby dashboard pages so cache setup happens in the background.\n- Existing legacy extras manifests can be imported without deleting the old files.\n- Removed the SQLite runtime dependency for better Emby compatibility.\n- Improved generated file names so they are consistent across Windows and Linux.\n",
                 "targetAbi": "10.11.0.0",
