@@ -33,6 +33,7 @@ __pycache__/
 
 # Private notes, AI prompts, and local development docs
 docs/
+IMPLEMENTATION_REPORT_*.md
 GITHUB_ACTIONS.md
 sample.md
 **/sample.md
