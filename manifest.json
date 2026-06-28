@@ -9,6 +9,14 @@
         "imageUrl": "https://cassiscloud.github.io/jellyfin-plugin-animethemes-sync/images/jellyfin-plugin-animethemes-sync.jpeg",
         "versions": [
             {
+                "version": "2.3.0",
+                "changelog": "## Highlights\n- Added a persistent SQLite-backed Season Finder with paged browsing, mapping import/export, and automatic migration of existing season mappings.\n- Added a live download queue with progress tracking, cancellation, completed-job history, segmented downloads, and configurable concurrency.\n- Added video and audio previews with retry support and seekable playback.\n## Reliability and UI Improvements\n- Library Browser now refreshes its list, details, and summary immediately after downloads, mapping changes, and file deletions.\n- Season Finder changes now update the related Library Browser series without reopening the page.\n- Fixed Emby extra-file deletion failures caused by temporary file locks by releasing active playback and retrying safely.\n- Improved API error messages and prevented stale responses from overwriting newer UI state.\n## Upgrade Notes\n- Existing `SeasonThemeMappings` are migrated automatically.\n- No manual migration is required.\r\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/CassisCloud/jellyfin-plugin-animethemes-sync/releases/download/v2.3.0/Jellyfin.Plugin.AnimeThemesSync.zip",
+                "checksum": "ea6f269abe6035124eaae6c7e03e52a1",
+                "timestamp": "2026-06-28T15:36:52Z"
+            },
+            {
                 "version": "2.2.0",
                 "changelog": "- Support selecting theme media outputs (theme and extra) individually\n- Add customizable extras file suffix for better media server detection\n- Fix duplicated or incorrect season one theme output paths\n",
                 "targetAbi": "10.11.0.0",
