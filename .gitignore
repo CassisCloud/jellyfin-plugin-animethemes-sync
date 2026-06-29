@@ -31,12 +31,8 @@ manifest.json
 __pycache__/
 *.py[cod]
 
-# Private notes, AI prompts, and local development docs
-docs/
-IMPLEMENTATION_REPORT_*.md
-GITHUB_ACTIONS.md
-sample.md
-**/sample.md
+# Private notes, reports, and local development docs
+doc/
 *.prompt.md
 *.prompts.md
 prompts/
@@ -47,6 +43,5 @@ instructions/
 .claude/
 .cursor/
 .windsurf/
-AGENTS.md
 CLAUDE.md
 .github/copilot-instructions.md
